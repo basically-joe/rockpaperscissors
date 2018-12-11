@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link rel="stylesheet" type="text/css" href="/queries.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+  <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+  <header class="Home">
+    <nav>
+      <div class="row">
+        <div class="col span-1-of-2">
+          <ul class="main-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/rps">Play now</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="instructions">
+    <div>
+      <h2>How to play Rock, Paper, Scissors</h2>
+      <p>The game involves 2 players, each picks from 3 options (rock, paper or scissors)</p><br>
+      <ol>
+        <li>Click the <strong>Play now</strong> button.</li>
+        <li>Player 1 adds their choice first to the address bar eg http://localhost:4567/rps/rock.</li>
+        <li>Player 2 adds their choice second to the address bar eg http://localhost:4567/rps/rock/paper.</li>
+        <li>Hit the <strong>Return</strong> key on your keyboard.</li>
+      </ol>
+    </div>
+  </section>
+  <section class="output">
+    <div>
+      <%= yield %>
+    </div>
+  </section>
+      <footer>
+        <div>
+          <p>
+            Copyright &copy; 2018 by bascially_joe. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </body>
+
+    </html>

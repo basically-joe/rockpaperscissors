@@ -4,8 +4,16 @@ require("pry-byebug")
 require_relative("models/rps_model")
 also_reload("./models/*")
 
+get "/" do
+  erb(:home)
+end
+
 get "/home" do
   erb(:home)
+end
+
+get "/rps" do
+  erb(:play)
 end
 
 get "/rps/:hand1/:hand2" do
