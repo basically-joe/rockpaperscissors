@@ -16,13 +16,13 @@ class RPSGame
     }
 
     if hand1 == hand2
-      return "It's a Draw!"
+      return "it's a Draw!"
     elsif win[hand1] == hand2
       return "Player 1 wins with #{hand1}!"
     elsif win[hand2] == hand1
       return "Player 2 wins with #{hand2}!"
     else
-      return "uh oh! Looks like you didn't enter valid inputs!"
+      return "You didn't use valid inputs! Please try again with rock, paper or scissors."
     end
   end
 
