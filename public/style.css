@@ -16,7 +16,7 @@ body {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
-    /* overflow-x: hidden; */
+
 }
 
 
@@ -25,11 +25,12 @@ section {
 }
 
 nav {
-  background-color: #333;
   font-size: 80%;
   color: #ddd;
   border-bottom: 2px;
-  color: #888;
+  background-color: #333;
+  padding: 40px;
+
 }
 
 .main-nav {
